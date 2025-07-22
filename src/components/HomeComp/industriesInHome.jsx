@@ -6,40 +6,52 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const industries = [
   {
-    icon: 'fas fa-plane',
-    title: 'Aerial Transportation Consulting',
+    icon: 'fas fa-city',
+    title: 'Business Setup & Company Formation',
     description:
-      "Deliverables who's responsible for the ask for this request? But digitalize for bench mark.",
+      'Mainland, Free Zone, and Offshore company formation. Guidance on jurisdiction, license types, and legal compliance. Includes trade license, approvals, and local sponsor arrangements.',
   },
   {
-    icon: 'fas fa-briefcase',
-    title: 'Enterprise Pursuit Consulting',
+    icon: 'fas fa-user-shield',
+    title: 'Corporate Secretarial & Administration',
     description:
-      'Diversify what do you feel you would bring to the table if you were hired for this position.',
+      'Drafting Memorandum & Articles of Association, preparing resolutions, maintaining statutory records, and handling annual returns, restructuring, and changes to company structure.',
   },
   {
-    icon: 'fas fa-chart-pie',
-    title: 'Merchandise Consulting',
+    icon: 'fas fa-id-badge',
+    title: 'PRO (Public Relations Officer) Services',
     description:
-      'Level the playing field high touch client we need more paper out of the loop.',
+      'Investor, employment, and family visa processing. Includes Emirates ID, medical appointments, labor and immigration card issuance, and coordination with government authorities.',
   },
   {
-    icon: 'fas fa-money-bill-wave',
-    title: 'Fiscal and Banking Consulting',
+    icon: 'fas fa-file-signature',
+    title: 'Document Clearing & Legal Support',
     description:
-      'Personal development turd polishing, so commitment to the cause draft policy proposal.',
+      'End-to-end support for document attestation, notarization, and translation. Legal document preparation including power of attorney and custom agreements.',
   },
   {
     icon: 'fas fa-building',
-    title: 'Digital Estate Consulting',
+    title: 'Office Solutions',
     description:
-      'We need to future-proof this where do we stand on the latest client ask productize.',
+      'Providing physical office spaces (shared/private), virtual office services (address, mail, reception), and Ejari registration to support business establishment.',
   },
   {
-    icon: 'fas fa-chart-bar',
-    title: 'Statistical Market Consulting',
+    icon: 'fas fa-university',
+    title: 'Bank Account Opening Assistance',
     description:
-      'We need to socialize the comms with the wider stakeholder community low-hanging fruit.',
+      'Complete coordination with banks for opening business accounts, documentation preparation, KYC support, and direct communication with relationship managers.',
+  },
+  {
+    icon: 'fas fa-calculator',
+    title: 'Accounting, VAT & Tax Compliance',
+    description:
+      'Bookkeeping, financial reporting, VAT registration and filing, ESR compliance, UBO reporting, and expert corporate tax advisory and registration services.',
+  },
+  {
+    icon: 'fas fa-lightbulb',
+    title: 'Business Advisory & Consulting',
+    description:
+      'Market entry strategy, feasibility studies, business plans, support with mergers, acquisitions, liquidation, and other corporate advisory solutions.',
   },
 ];
 
@@ -53,11 +65,11 @@ const IndustriesInHome = () => {
       {/* Header */}
       <div className="max-w-3xl mb-12" data-aos="fade-right">
         <p className="text-sm font-medium tracking-wider uppercase text-gray-500">
-          OUR INDUSTRIES
+          OUR SERVICES
         </p>
         <h2 className="mt-2 text-3xl md:text-4xl font-extrabold text-black">
-          There are Many Types of <br />
-          Industries In Consulting
+          Expert Business Consulting for <br />
+          Setup, Growth & Compliance in UAE
         </h2>
         <div className="w-16 h-1 bg-[#D9BD6A] mt-3"></div>
       </div>

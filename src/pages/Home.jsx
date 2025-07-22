@@ -7,6 +7,9 @@ import HomeBannerSection from '../components/HomeComp/HomeBannerSection';
 import AboutInHome from '../components/HomeComp/AboutInHome';
 import IndustriesInHome from '../components/HomeComp/industriesInHome';
 import LogoSlider from '../components/HomeComp/LogoSlider';
+import OurBlog from '../components/HomeComp/OurBlog';
+import Form from '../components/ContactComp/Form';
+import FAQAccordion from '../components/HomeComp/FAQAccordion';
 const Home = () => {
   useEffect(() => {
     AOS.init({ once: true, duration: 1000 });
@@ -17,11 +20,17 @@ const Home = () => {
       <HomeBannerSection />
 
       <IndustriesInHome />
-      <StatsCounter />
 
       <AboutInHome />
 
+      <StatsCounter />
+
       <LogoSlider />
+
+      <OurBlog />
+
+      <FAQAccordion />
+      
     </main>
   );
 };

@@ -2,40 +2,56 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/f
 
 const Topbar = () => {
   return (
-    <div className="bg-black text-white text-sm px-4 md:px-6 py-2">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-2 md:gap-0">
+    <div className="bg-black text-white text-sm shadow-md z-50 relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center h-16 gap-2 md:gap-0">
 
-        {/* Left Side - Hide on small devices */}
-        <div className="hidden md:flex flex-wrap items-center gap-4">
-          <span>📞 +971 50 576 1914</span>
-          <a href="#" className="hover:text-[#19CAB7] transition duration-300">FAQ</a>
-          <a href="#" className="hover:text-[#19CAB7] transition duration-300">PORTAL 360</a>
-          <a href="#" className="hover:text-[#12A652] transition duration-300">REGULATIONS</a>
-          <a href="#" className="hover:text-[#12A652] transition duration-300">CAREERS</a>
+        {/* Left Side - Always visible */}
+        <div className="flex items-center gap-4">
+          <span className="relative inline-block">
+            📞 +971 50 576 1914
+          </span>
         </div>
 
-        <div className="flex justify-center md:justify-end w-full md:w-auto items-center gap-5">
-          {/* Facebook - Blue */}
-          <a href="#" className="text-[#1877F2] hover:scale-110 transition duration-300 transform">
+        {/* Right Side - Social Icons */}
+        <div className="flex justify-center md:justify-end items-center gap-5 mt-1 md:mt-0">
+
+          {/* Facebook */}
+          <a
+            href="#"
+            className="group relative text-[#1877F2] hover:scale-110 transition duration-300 transform"
+          >
             <FaFacebookF size={18} />
+            <span className="absolute -bottom-1 left-1/2 w-0 group-hover:w-full transition-all duration-300 h-[2px] bg-[#1877F2] rounded-full transform -translate-x-1/2"></span>
           </a>
 
-          {/* Twitter - Sky Blue */}
-          <a href="#" className="text-[#1DA1F2] hover:scale-110 transition duration-300 transform">
+          {/* Twitter */}
+          <a
+            href="#"
+            className="group relative text-[#1DA1F2] hover:scale-110 transition duration-300 transform"
+          >
             <FaTwitter size={18} />
+            <span className="absolute -bottom-1 left-1/2 w-0 group-hover:w-full transition-all duration-300 h-[2px] bg-[#1DA1F2] rounded-full transform -translate-x-1/2"></span>
           </a>
 
-          {/* Instagram - Pinkish Gradient */}
-          <a href="#" className="text-[#E1306C] hover:scale-110 transition duration-300 transform">
+          {/* Instagram */}
+          <a
+            href="#"
+            className="group relative text-[#E1306C] hover:scale-110 transition duration-300 transform"
+          >
             <FaInstagram size={18} />
+            <span className="absolute -bottom-1 left-1/2 w-0 group-hover:w-full transition-all duration-300 h-[2px] bg-[#E1306C] rounded-full transform -translate-x-1/2"></span>
           </a>
 
-          {/* LinkedIn - Dark Blue */}
-          <a href="#" className="text-[#0A66C2] hover:scale-110 transition duration-300 transform">
+          {/* LinkedIn */}
+          <a
+            href="#"
+            className="group relative text-[#0A66C2] hover:scale-110 transition duration-300 transform"
+          >
             <FaLinkedinIn size={18} />
+            <span className="absolute -bottom-1 left-1/2 w-0 group-hover:w-full transition-all duration-300 h-[2px] bg-[#0A66C2] rounded-full transform -translate-x-1/2"></span>
           </a>
-        </div>
 
+        </div>
       </div>
     </div>
   );

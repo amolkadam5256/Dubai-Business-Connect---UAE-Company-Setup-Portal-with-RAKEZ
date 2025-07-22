@@ -1,20 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  useEffect(() => {
+    AOS.init({ once: true });
+    AOS.refresh();
+  }, []);
+
   return (
     <>
-      <footer className="w-full bg-black text-white text-sm sm:text-base overflow-hidden">
-        <div className="overflow-hidden">
+      <footer className="w-full bg-black text-white text-sm sm:text-base overflow-x-hidden">
+        <div>
           <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 px-4 py-6">
-
             {/* Company Info */}
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+            <div data-aos="fade-right" data-aos-duration="1000">
               <div className="font-bold text-xl text-[#19CAB7] mb-4">
                 <Link to="/">Dubai Business Connect</Link>
               </div>
@@ -36,7 +42,7 @@ const Footer = () => {
             </div>
 
             {/* Quick Links */}
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+            <div data-aos="fade-up" data-aos-duration="1000">
               <h4 className="text-[#19CAB7] font-bold text-base sm:text-lg mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-300">
                 {[
@@ -56,7 +62,7 @@ const Footer = () => {
             </div>
 
             {/* Business Setup Services */}
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+            <div data-aos="fade-up" data-aos-duration="1000">
               <h4 className="text-[#19CAB7] font-bold text-base sm:text-lg mb-4">Company Setup Packages</h4>
               <ul className="space-y-2 text-white font-medium break-words">
                 {[
@@ -73,7 +79,7 @@ const Footer = () => {
             </div>
 
             {/* Social Media */}
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+            <div data-aos="fade-left" data-aos-duration="1000">
               <h4 className="text-[#19CAB7] font-bold text-base sm:text-lg mb-4">Connect With Us</h4>
               <p className="text-sm text-gray-300 mb-4">
                 Follow us for the latest UAE business updates, tips, and offers.

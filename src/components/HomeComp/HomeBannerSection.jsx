@@ -4,24 +4,24 @@ import { Link } from "react-router-dom";
 const HomeBannerSection = () => {
   const cards = [
     {
-      icon: "fas fa-briefcase",
-      title: "Audit & Evaluation",
-      subtitle: "Consulting Service",
-      description: "Collaboratively build backward compatible relationships...",
+      icon: "fas fa-building",
+      title: "Company Formation",
+      subtitle: "Setup & Licensing",
+      description: "Establish mainland, free zone, or offshore companies with full licensing, jurisdiction selection, and sponsor support.",
       link: "#",
     },
     {
-      icon: "fas fa-users",
-      title: "Social Marketing",
-      subtitle: "Marketing Service",
-      description: "Dynamically reinvent market-driven opportunities...",
+      icon: "fas fa-user-shield",
+      title: "Secretarial Support",
+      subtitle: "Corporate Services",
+      description: "Get help with resolutions, legal filings, restructuring, and maintaining regulatory records with precision.",
       link: "#",
     },
     {
-      icon: "fas fa-chart-line",
-      title: "Corporate Finance",
-      subtitle: "Finance Service",
-      description: "Proactively envisioned multimedia based expertise...",
+      icon: "fas fa-passport",
+      title: "Visa & PRO Services",
+      subtitle: "Government Liaison",
+      description: "Handle visas, IDs, labor cards, and coordinate with authorities for smooth approvals and clearances.",
       link: "#",
     },
   ];
@@ -40,16 +40,15 @@ const HomeBannerSection = () => {
         {/* Overlay Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 py-20 flex flex-col items-center justify-center text-center space-y-5">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold leading-tight text-white animate-fade-up">
-            Dubai Business Connect – Your Partner for Startup, SME, and Industrial Setup
+            Start Your Dubai Business Journey – Company Formation Made Easy
           </h1>
 
           <p className="text-base sm:text-lg max-w-3xl text-white/80 animate-fade-up delay-200">
-            Powering startups, SMEs, and global enterprises with seamless company formation in the UAE.
+            Register your business in Dubai with expert assistance. We simplify mainland, free zone, and offshore company setup for startups, SMEs, and global investors.
           </p>
 
           <p className="text-sm sm:text-base max-w-2xl text-white/70 animate-fade-up delay-300">
-            Dubai Business Connect is your go-to destination for business licensing, banking, visa assistance,
-            and facility support across free zone and mainland company formation in the UAE. Trusted by 30,000+ entrepreneurs and enterprises.
+            From trade license registration and visa processing to office setup and tax compliance, Dubai Business Connect provides end-to-end solutions trusted by over 30,000 entrepreneurs. Build your business with confidence in the UAE.
           </p>
 
           <a
@@ -59,6 +58,7 @@ const HomeBannerSection = () => {
             Get Started <i className="fas fa-arrow-right text-xs"></i>
           </a>
         </div>
+
       </section>
 
       {/* Cards Section: 50% out of background */}

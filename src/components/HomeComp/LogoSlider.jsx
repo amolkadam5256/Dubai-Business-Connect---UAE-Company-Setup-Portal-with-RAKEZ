@@ -32,13 +32,12 @@ const LogoSlider = () => {
         data-aos-duration="1000"
       >
         <h2 className="text-[1.3rem] sm:text-2xl text-[#11BFAE] font-extrabold drop-shadow-md transition duration-300 hover:scale-105">
-          We Collaborate With Leading Businesses
+          We Build Companies in Dubai — For You, From Anywhere
         </h2>
-        <p
-          className="text-lg sm:text-xl mt-4 text-black  transition duration-300 ease-in-out tracking-wide"
-        >
-          Dubai Business Connect Drives Digital Growth — And Lasting Success
+        <p className="text-lg sm:text-xl mt-4 text-black transition duration-300 ease-in-out tracking-wide">
+          Whether you're a startup or an established business from another country, we help you seamlessly establish your company in Dubai. From business licensing to legal approvals, we handle everything - so you can focus on growth.
         </p>
+
       </div>
 
       {/* Left-to-Right Swiper */}

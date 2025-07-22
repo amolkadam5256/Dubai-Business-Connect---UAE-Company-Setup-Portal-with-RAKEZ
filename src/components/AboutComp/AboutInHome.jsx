@@ -5,10 +5,8 @@ const AboutInHome = () => {
   return (
     <>
       {/* About Header */}
-      <div className="max-w-4xl mx-auto text-center mb-16 mt-32 px-4" data-aos="fade-up">
-        <h3 className="text-[1.3rem] text-[#19CAB7] font-semibold uppercase tracking-widest">
-          About Dubai Business Connect
-        </h3>
+      <div className="max-w-4xl mx-auto text-center mb-16 mt-10 px-4" data-aos="fade-up">
+        
         <h2 className="text-2xl sm:text-3xl font-bold mt-2 text-[#1e1e1e]">
           Your Trusted Partner in UAE Company Formation
         </h2>
