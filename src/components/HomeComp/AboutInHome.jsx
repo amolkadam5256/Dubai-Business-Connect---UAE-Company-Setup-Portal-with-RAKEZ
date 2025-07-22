@@ -71,7 +71,7 @@ const AboutInHome = () => {
           {/* CTA Button */}
           <div className="flex justify-center lg:justify-start">
             <button className="relative overflow-hidden w-auto h-12 border-0 border-[#12A652] rounded-lg px-6 flex items-center justify-center bg-[#19CAB7] hover:bg-white transition-all duration-300 text-white hover:text-[#12A652] font-semibold group">
-              <Link to="/OurCompany" className="z-10 text-sm font-medium text-inherit">
+              <Link to="/about" className="z-10 text-sm font-medium text-inherit">
                 <span>Read More</span>
               </Link>
               <span className="absolute inset-0 bg-gradient-to-r from-green-500 via-teal-500 to-cyan-400 opacity-0 group-hover:opacity-10 transition-all duration-500"></span>

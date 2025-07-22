@@ -155,6 +155,17 @@ const OurBlog = () => {
                   </span>
                 ))}
               </div>
+              <div className="flex justify-center my-4">
+                <a
+                  href="https://dubaibusinessconnect.com/dubai_golden_visa/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-center text-sm text-white bg-[#19CAB7] px-4 py-2 rounded-full hover:bg-[#12A652] transition"
+                >
+                  Read More
+                </a>
+              </div>
+
             </div>
           </SwiperSlide>
         ))}

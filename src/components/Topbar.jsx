@@ -35,7 +35,7 @@ const Topbar = () => {
 
           {/* Instagram */}
           <a
-            href="#"
+            href="https://www.instagram.com/dubai_businessconnect"
             className="group relative text-[#E1306C] hover:scale-110 transition duration-300 transform"
           >
             <FaInstagram size={18} />

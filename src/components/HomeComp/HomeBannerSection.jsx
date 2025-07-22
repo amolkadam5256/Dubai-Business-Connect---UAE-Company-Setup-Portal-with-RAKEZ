@@ -51,12 +51,12 @@ const HomeBannerSection = () => {
             From trade license registration and visa processing to office setup and tax compliance, Dubai Business Connect provides end-to-end solutions trusted by over 30,000 entrepreneurs. Build your business with confidence in the UAE.
           </p>
 
-          <a
-            href="#get-started"
+          <Link
+            to="/contact"
             className="inline-flex items-center gap-2 px-6 py-3 bg-[#19CAB7] text-black font-semibold text-sm sm:text-base rounded-full shadow hover:bg-[#12A652] transition"
           >
             Get Started <i className="fas fa-arrow-right text-xs"></i>
-          </a>
+          </Link>
         </div>
 
       </section>
@@ -85,7 +85,7 @@ const HomeBannerSection = () => {
             </p>
 
             <Link
-              to={card.link}
+              to="/services"
               className="inline-block mt-6 text-sm font-medium text-[#12A652] group-hover:text-[#19CAB7] transition"
             >
               Learn More →
