@@ -36,8 +36,7 @@ const Footer = () => {
               </p>
               <p className="flex items-start gap-2 break-words">
                 <i className="fas fa-map-marker-alt text-[#12A652] mt-1"></i>
-                Dubai Business Connect<br />
-                Office 302, Business Bay, Dubai, UAE
+               Sheikh Zayed Road, Dubai UAE
               </p>
             </div>
 
