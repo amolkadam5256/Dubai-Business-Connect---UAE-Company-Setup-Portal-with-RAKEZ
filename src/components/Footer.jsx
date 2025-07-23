@@ -36,7 +36,7 @@ const Footer = () => {
               </p>
               <p className="flex items-start gap-2 break-words">
                 <i className="fas fa-map-marker-alt text-[#12A652] mt-1"></i>
-               Sheikh Zayed Road, Dubai UAE
+                Sheikh Zayed Road, Dubai UAE
               </p>
             </div>
 
@@ -85,14 +85,16 @@ const Footer = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 {[
-                  { icon: 'facebook-f', href: '#', color: '#1877F2' },
-                  { icon: 'instagram', href: '#', color: '#E1306C' },
-                  { icon: 'linkedin-in', href: '#', color: '#0A66C2' },
-                  { icon: 'twitter', href: '#', color: '#1DA1F2' }
+                  { icon: 'facebook', href: 'https://www.facebook.com/profile.php?id=100063705264515', color: '#1877F2' },
+                  { icon: 'twitter', href: 'https://twitter.com/yourprofile', color: '#1DA1F2' },
+                  { icon: 'instagram', href: 'https://www.instagram.com/dubai_businessconnect', color: '#E1306C' },
+                  { icon: 'linkedin', href: 'https://linkedin.com/in/yourprofile', color: '#0A66C2' },
+                  { icon: 'youtube', href: 'https://www.youtube.com/@DubaiBusinessConnect', color: '#FF0000' },
                 ].map((media, i) => (
                   <a
                     key={i}
                     href={media.href}
+                    target="_blank"
                     className="text-lg"
                     aria-label={media.icon}
                     style={{ color: media.color }}

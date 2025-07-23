@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 const Topbar = () => {
   return (
@@ -17,7 +17,8 @@ const Topbar = () => {
 
           {/* Facebook */}
           <a
-            href="#"
+            href="https://www.facebook.com/profile.php?id=100063705264515"
+            target="_blank"
             className="group relative text-[#1877F2] hover:scale-110 transition duration-300 transform"
           >
             <FaFacebookF size={18} />
@@ -27,6 +28,7 @@ const Topbar = () => {
           {/* Twitter */}
           <a
             href="#"
+            target="_blank"
             className="group relative text-[#1DA1F2] hover:scale-110 transition duration-300 transform"
           >
             <FaTwitter size={18} />
@@ -36,6 +38,7 @@ const Topbar = () => {
           {/* Instagram */}
           <a
             href="https://www.instagram.com/dubai_businessconnect"
+            target="_blank"
             className="group relative text-[#E1306C] hover:scale-110 transition duration-300 transform"
           >
             <FaInstagram size={18} />
@@ -45,10 +48,22 @@ const Topbar = () => {
           {/* LinkedIn */}
           <a
             href="#"
+            target="_blank"
             className="group relative text-[#0A66C2] hover:scale-110 transition duration-300 transform"
           >
             <FaLinkedinIn size={18} />
             <span className="absolute -bottom-1 left-1/2 w-0 group-hover:w-full transition-all duration-300 h-[2px] bg-[#0A66C2] rounded-full transform -translate-x-1/2"></span>
+          </a>
+
+          {/* YouTube */}
+          <a
+            href="https://www.youtube.com/@DubaiBusinessConnect"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative text-[#FF0000] hover:scale-110 transition duration-300 transform"
+          >
+            <FaYoutube size={20} />
+            <span className="absolute -bottom-1 left-1/2 w-0 group-hover:w-full transition-all duration-300 h-[2px] bg-[#FF0000] rounded-full transform -translate-x-1/2"></span>
           </a>
 
         </div>
