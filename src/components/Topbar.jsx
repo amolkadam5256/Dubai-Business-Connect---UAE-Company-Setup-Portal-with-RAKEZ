@@ -27,7 +27,7 @@ const Topbar = () => {
 
           {/* Twitter */}
           <a
-            href="#"
+            href="https://x.com/dubaibusin11836?s=21"
             target="_blank"
             className="group relative text-[#1DA1F2] hover:scale-110 transition duration-300 transform"
           >
